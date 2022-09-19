@@ -1,6 +1,5 @@
-
 body {
-    background-color: var(--rich-black);
+    background-color: var(--shadow);
 
 /* COLORS */
 
@@ -10,13 +9,17 @@ body {
 --shadow: #7b7263ff;
 --rich-black: #04080fff;
 
-
 }
 .name-banner {
     display: flex;
     justify-content: center;
 }
 
+#name-banner-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
 .link-boxes-div {
     display: flex;
     flex-direction: column;
@@ -29,4 +32,16 @@ body {
     justify-content: space-evenly;
     margin: 0 auto;
     width: 100%;
+}
+
+#github-link {
+    background-color: var(--gainsboro);
+    border: 1px solid var(--shadow);
+    border-radius: 5px;
+    color: var(--rich-black);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    width: 10vw;
 }

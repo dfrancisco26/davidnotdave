@@ -1,9 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function FirstPost() {
   return (
-    <>
+    <div className='container'>
+        <Head>
+            <title>Main Page</title>
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
@@ -21,7 +26,7 @@ export default function FirstPost() {
       <div className='business-card-div'>
         <Image id='business-card-img' src='/Business_Card.png' width={450} height={250} />
       </div>
-    </>
+    </div>
 
   );
 }
