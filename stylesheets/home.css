@@ -1,3 +1,17 @@
+
+body {
+    background-color: var(--rich-black);
+
+/* COLORS */
+
+--gainsboro: #cdddddff;
+--razzmatazz: #db3069ff;
+--orange-web: #ffa400ff;
+--shadow: #7b7263ff;
+--rich-black: #04080fff;
+
+
+}
 .name-banner {
     display: flex;
     justify-content: center;
@@ -7,4 +21,12 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+}
+
+.link-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
 }
