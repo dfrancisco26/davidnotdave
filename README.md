@@ -65,3 +65,15 @@ SOME COOL CODEPENS OF CSS ANIMATIONS
 BEACH VIBES GRADIENT w ANIMATION: https://codepen.io/chrishodges27/pen/QxGdmb
 YELLOW WORD SERIES: https://codepen.io/alvarotrigo/pen/PoKMyWE
 -->
+
+#### Notes
+
+Thinking about doing a maximalist/minimalist thing, a play on light/dark mode.
+
+- More fonts and colors for maximalist page, maybe even have a background. Not sure on that though, maybe make one on canva?
+
+- Minimalist page will be straight up black and white with clean animations.
+
+- Spotify should definitely be a thing, to showcase being able to use an API embed.
+
+- Animated background for maximalist version.

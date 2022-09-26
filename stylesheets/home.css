@@ -1,6 +1,8 @@
 body {
-    background-color: var(--rich-black);
-
+    background-image: url(../public/Field_Background.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 /* COLORS */
 
 --gainsboro: #cdddddff;
@@ -8,6 +10,12 @@ body {
 --orange-web: #ffa400ff;
 --shadow: #7b7263ff;
 --rich-black: #04080fff;
+--cloud-dark: #f09e78;
+--cloud-light: #FCD0AD;
+--sky-blue: #3a929d;
+--light-sky-blue: #6BAAB4;
+--dark-forest: #687C48;
+--light-forest: #7A8E59;
 
 /* FONTS
 font-family: 'Montserrat Alternates', sans-serif;
@@ -89,6 +97,11 @@ font-family: 'Oxygen', sans-serif;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    opacity: 0.3;
+}
+
+.business-card-div:hover {
+    opacity: 1;
 }
 
 h1 {
@@ -104,13 +117,24 @@ h1 {
     width: 550px;
   }
   
+  .word1 {
+    font-family: 'montserrat alternates', sans-serif;
+  }
+
+  .word2 {
+
+  }
+
   h1 span {
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 40px;
     margin-left: 40px;
+    font-weight:  800;
   }
   
   .message {
-    background-color: var(--orange-web);
+
+    background-color: var(--light-sky-blue);
     color: var(--rich-black);
     display: block;
     font-weight: 900;
@@ -122,10 +146,7 @@ h1 {
     animation: openclose 7s ease-in-out infinite;
   }
   
-  .word1, .word2, .word3 {
-    font-family: tahoma;
-  }
-  
+
   @keyframes openclose {
     0% {
       top: 0.2rem;
@@ -142,7 +163,7 @@ h1 {
       width: 350px;
     }
     33% {
-      background-color: var(--razzmatazz);
+      background-color: var(--orange-web);
       top: 0.2rem;
       width: 0;
     }
@@ -166,6 +187,7 @@ h1 {
       top: -4.5rem;
       width: 0;
       text-indent: 0;
+      background-color: var(--light-forest);
     }
     71% {
       top: -9rem;
