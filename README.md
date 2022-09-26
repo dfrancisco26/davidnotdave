@@ -61,5 +61,7 @@ $gradient-top-left: linear-gradient(225deg, #cdddddff, #db3069ff, #ffa400ff, #7b
 $gradient-bottom-left: linear-gradient(315deg, #cdddddff, #db3069ff, #ffa400ff, #7b7263ff, #04080fff);
 $gradient-radial: radial-gradient(#cdddddff, #db3069ff, #ffa400ff, #7b7263ff, #04080fff);
 
+SOME COOL CODEPENS OF CSS ANIMATIONS
+BEACH VIBES GRADIENT w ANIMATION: https://codepen.io/chrishodges27/pen/QxGdmb
+YELLOW WORD SERIES: https://codepen.io/alvarotrigo/pen/PoKMyWE
 -->
-

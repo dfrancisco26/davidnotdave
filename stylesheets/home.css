@@ -1,5 +1,5 @@
 body {
-    background-color: var(--shadow);
+    background-color: var(--rich-black);
 
 /* COLORS */
 
@@ -9,21 +9,58 @@ body {
 --shadow: #7b7263ff;
 --rich-black: #04080fff;
 
+/* FONTS
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Ms Madi', cursive;
+font-family: 'Oxygen', sans-serif;
+*/
+
 }
+
+
 .name-banner {
     display: flex;
     justify-content: center;
+    color: var(--gainsboro);
 }
 
 #name-banner-text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 3rem;
     margin-top: 2rem;
 }
+
 .link-boxes-div {
     display: flex;
     flex-direction: column;
     justify-content: left;
+}
+
+#linkedin {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 3rem;
+    height: 3rem;
+    box-shadow: var(--gainsboro) 0px 4px 10px;
+    border-radius: 10%;
+}
+
+#linkedin:hover {
+    box-shadow: rgb(10, 102, 194) 0px 4px 10px;
+}
+
+#github {
+    background-color: var(--gainsboro);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 3rem;
+    height: 3rem;
+    box-shadow: var(--gainsboro) 0px 4px 10px;
+    border-radius: 50%;
+}
+
+#github:hover {
+    box-shadow: var(--razzmatazz) 0px 4px 10px;
 }
 
 .link-boxes {
@@ -45,3 +82,112 @@ body {
     text-decoration: none;
     width: 10vw;
 }
+
+.business-card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h1 {
+    color: var(--gainsboro);
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+  }
+  
+  h1 span {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  
+  .message {
+    background-color: var(--orange-web);
+    color: var(--rich-black);
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 270px;
+    animation: openclose 7s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 350px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 350px;
+    }
+    33% {
+      background-color: var(--razzmatazz);
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 400px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 400px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 300px;
+    }
+    95% {
+      top: -9rem;
+      width: 300px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }

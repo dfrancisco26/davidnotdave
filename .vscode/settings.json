@@ -1,6 +1,21 @@
 {
     "cSpell.words": [
+        "Bitstream",
+        "Cantarell",
         "Coolors",
-        "fogra"
+        "Fira",
+        "fogra",
+        "Lucida",
+        "Menlo",
+        "Neue",
+        "noopener",
+        "noreferrer",
+        "rarr",
+        "rgba",
+        "Roboto",
+        "Segoe"
+    ],
+    "cSpell.ignoreWords": [
+        "openclose"
     ]
 }
